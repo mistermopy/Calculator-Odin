@@ -31,3 +31,19 @@ function operate(operator, aInt, bInt) {
 }
 
 console.log(operate('*', 10, 2));
+/* NOTES FOR ASSISTANCE
+const body = document.querySelector('body'), 
+container = document.querySelector('.container'),
+content = document.querySelector('#content'),
+let finalResult = document.createElement('div');
+
+body.style = 'height: 95vh; width: 95vw;';
+container.style = 'height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;';
+btnCSS.style = 'display: flex; gap: 15%;';
+content.style = 'margin-top: 5%; height: 80%; width: 80%; display: flex; flex-direction: column; justify-content: space-between;';
+
+playerSelectionValue.textContent = '';
+playerSelectionDisplay.appendChild(playerSelectionValue);
+pScoreDisplay.textContent = `${pScoreActual}`;
+container.replaceChildren(gameLose);
+*/
