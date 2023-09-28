@@ -1,6 +1,9 @@
-let aInt;
-let bInt;
-let operator;
+const body = document.querySelector('body'),
+    container = document.querySelector('.container'),
+    input = document.querySelector('input'),
+    clearButton = document.querySelector('#clear'),
+    numberButtons = document.querySelector('.numberButtons'),
+    operatorButtons = document.querySelector('.operatorButtons');
 
 function add(aInt, bInt) {
     return aInt + bInt; 
@@ -31,6 +34,7 @@ function operate(operator, aInt, bInt) {
 }
 
 console.log(operate('*', 10, 2));
+
 /* NOTES FOR ASSISTANCE
 const body = document.querySelector('body'), 
 container = document.querySelector('.container'),
@@ -46,4 +50,8 @@ playerSelectionValue.textContent = '';
 playerSelectionDisplay.appendChild(playerSelectionValue);
 pScoreDisplay.textContent = `${pScoreActual}`;
 container.replaceChildren(gameLose);
+
+rock.addEventListener('click', ()=> {
+    playRound('rock', computerPlay());
+});
 */
