@@ -5,6 +5,51 @@ const body = document.querySelector('body'),
     numberButtons = document.querySelector('.numberButtons'),
     operatorButtons = document.querySelector('.operatorButtons');
 
+const zeroBtn = document.querySelector('#zero'),
+    oneBtn = document.querySelector('#one'),
+    twoBtn = document.querySelector('#two'),
+    threeBtn = document.querySelector('#three'),
+    fourBtn = document.querySelector('#four'),
+    fiveBtn = document.querySelector('#five'),
+    sixBtn = document.querySelector('#six'),
+    sevenBtn = document.querySelector('#seven'),
+    eightBtn = document.querySelector('#eight'),
+    nineBtn = document.querySelector('#nine'),
+    addBtn = document.querySelector('#add'),
+    subtractBtn = document.querySelector('#subtract'),
+    multiplyBtn = document.querySelector('#multiply'),
+    divideBtn = document.querySelector('#divide'),
+    equalsBtn = document.querySelector('#equals');
+
+clearButton.addEventListener('click', () => input.value = '');
+zeroBtn.addEventListener('click', () => input.value += 0);
+oneBtn.addEventListener('click', () => input.value += 1);
+twoBtn.addEventListener('click', () => input.value += 2);
+threeBtn.addEventListener('click', () => input.value += 3);
+fourBtn.addEventListener('click', () => input.value += 4);
+fiveBtn.addEventListener('click', () => input.value += 5);
+sixBtn.addEventListener('click', () => input.value += 6);
+sevenBtn.addEventListener('click', () => input.value += 7);
+eightBtn.addEventListener('click', () => input.value += 8);
+nineBtn.addEventListener('click', () => input.value += 9);
+
+addBtn.addEventListener('click', () => {
+    
+});
+subtractBtn.addEventListener('click', () => {
+
+});
+multiplyBtn.addEventListener('click', () => {
+
+});
+divideBtn.addEventListener('click', () => {
+
+});
+
+equalsBtn.addEventListener('click', () => {
+
+});
+
 function add(aInt, bInt) {
     return aInt + bInt; 
 }
